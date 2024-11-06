@@ -6,3 +6,38 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.align-items-center{
+   align-items: center; 
+}
+.slider{position: relative;}
+.slider img{width: 100%;}
+.slider-overlay{position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+.cust-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+.slider-overlay h1{
+    font-family: "Oswald", sans-serif;
+    text-transform:uppercase;
+    color: #ff8a00;
+    font-size: 95px;
+}
+.slider-overlay h1 span
+{
+    color: #fff;
+}

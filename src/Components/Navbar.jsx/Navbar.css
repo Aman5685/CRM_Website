@@ -1,34 +1,65 @@
 .header
 {
     width: 100%;
-    height: 70px;
-    background-color: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
+img{max-width: 100%;}
 .logo
 {
-  width: 50%;
-  height: 100%;
+padding: 0 15px;
+flex: 0 0 100%;
+max-width: 350px;
 }
 .menu
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 0 0 100%;
+    max-width: calc(100% - 350px);
 }
-.menus{
-    list-style: none;
+.menu ul{
     display: flex;
-    margin: 30px;
+    flex-wrap: wrap;
+}
+.menu ul li{
+    list-style: none;
     font-size: 20px;
+}
+.menu ul li a{
+    padding: 10px;
+}
+.menu ul li a:hover
+{
+     color: #ff8a00;
+    display: unset;
 }
 .text
 {
     color: white;
+}
+.cust-col-md-6 p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "Oswald", sans-serif;
+}
+.btn button
+{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+    display: inline-table;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn button:hover
+{
+   background-color: #ff8a00;
+    display: unset;
+    transition: 0.5s;
 }
