@@ -22,7 +22,6 @@ function Navbar() {
                         <li><a href="#Contact" className="text">Contact</a></li>                
                         <li><a href="#call" className="text">Free call in India 7800080638 <FiPhoneCall />
                         </a></li>
-                        
                     </ul>
                 </div>
             </div>

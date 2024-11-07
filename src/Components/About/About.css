@@ -1,0 +1,110 @@
+.maindiv
+{
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.divleft
+{
+    width: 32%;
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+}
+.divleft h1
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff8a00;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+    opacity: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ff8a00;
+}
+.divleft h2
+{
+    margin-top: 10px;
+    line-height: 1.2;
+    color: #0b2f44;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.divleft p
+{
+     margin-top: 10px;
+     letter-spacing: 1px;
+     
+}
+.divright
+{
+    width: 68%;
+    float: right;
+    background-color: blue;
+}
+/*
+
+.left h1
+{
+    margin-top: 30px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ff8a00;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    opacity: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ff8a00;
+}
+.left h2
+{
+    
+    line-height: 1.2;
+    color: #0b2f44;
+}
+.left p
+{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    
+}
+.left pre
+{
+    margin-top: 15px;
+}
+.left button
+{
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #ff8a00;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    display: inline-table;
+    border: 1px solid #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.left button:hover
+{
+   color: #0b2f44;
+   display: 0.5s;
+}
+.left span
+{
+    margin: -10px 35px;
+   font-family: 'Sacramento', cursive;
+   font-weight: 0;
+   font-size: 45px;
+   color: #000;
+   position: absolute;
+   transform: rotate(-1deg);
+}
+   */
