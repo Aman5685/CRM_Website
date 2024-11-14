@@ -1,5 +1,6 @@
 .header
 {
+    background-color: dodgerblue;
     width: 100%;
     position: fixed;
     top: 0;
@@ -50,7 +51,7 @@ max-width: 350px;
     cursor: pointer;
     background-color: transparent;
     color: #fff;
-    padding: 12px 30px;
+    padding: 18px 33px;
     letter-spacing: 1px;
     display: inline-table;
     border: 1px solid #fff;
