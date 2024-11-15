@@ -86,6 +86,43 @@
     float: right;
     border: 11px solid black;
 }
+.last-icon
+{
+    position: absolute;
+    left: 410px;
+    margin-top: 150px;
+}
+.tw-any-help-inner
+{
+    background-color: #fff;
+    padding: 30px;
+    width: 53%;
+    height: 50%;
+    float: right;
+    transform: translateY(-50%);
+    box-shadow: 0px 20px 40px rgba(255, 138, 0, 0.4);
+    margin-top: 140px; 
+}
+.tw-24
+{
+    display: flex;
+    color: #0b2f44;
+    text-transform: uppercase;
+}
+.tw-help-title
+{
+    display: flex;
+    color: #ff8a00;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tw-help-number
+{
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+}
+
 /*
 
 .left h1

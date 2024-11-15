@@ -1,0 +1,40 @@
+.Shipment-main
+{
+    position: relative;
+    left: 111px;
+    top: 129px;
+}
+.Shipment-h1
+{
+    font-size: 47px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ffa800;
+}
+.Shipment-h2
+{
+    font-size: 44px;
+    font-weight: 500;
+    color: #0b2f44;
+}
+.Shipment-button
+{
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 81px;
+    width: 174px;
+    height: 54px;
+    background: #ffa800;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.shipment-btn-h1
+{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    right: 12px;
+}

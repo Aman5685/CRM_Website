@@ -1,0 +1,77 @@
+.container-services
+{
+    position: absolute;
+    margin-top: 320px;
+    left: 490px;
+}
+.container-h1-service
+{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 80px;
+    letter-spacing: 6px;
+    color: #ff8a00;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ff8a00;  
+}
+.container-h2-service
+{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: -80px;
+    color: #0b2f44;
+}
+.Wrapper
+{
+    display: grid;
+    grid-template-columns: 350px 350px 375px;
+    margin-top: 493px;
+    margin-left: 118px;
+    border-radius: 5px;
+}
+.Wrapper>div{
+    border: 15px solid silver;
+    color: black;
+    padding: 1em;
+}
+.Wrapper>div:hover
+{
+    border-color: #ff8a00;
+}
+.service1
+{
+    width: 64px;
+    height: 51px;
+}
+.service2{
+    color: #ff8a00;
+    font-size: 46px;
+    font-weight: 700;
+}
+.service3
+{
+    position: relative;
+    left: 65px;
+    bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0b2f44;
+}
+.service4
+{
+    font-size: 19px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 23px;
+}
+.service5
+{
+    color: #ff8a00;
+    transition: 0.5s all ease;
+}
+.service5:hover
+{
+    font-size: 25px;
+}
