@@ -1,0 +1,138 @@
+.FAQ-main-div
+{
+    text-align: center;
+    height: 40vh;
+    position: relative;
+    top: 55px;
+}
+.FAQ-main-div-h1
+{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffa800;
+    letter-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+.FAQ-main-div-h2
+{
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 85px;
+}
+.FAQ-main-div-summary
+{
+    position: relative;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 100;
+    color: #3c3c3c;
+    letter-spacing: 1px;
+    left: 262px;
+}
+.FAQ-main-bottom
+{
+    display: flex;
+    position: relative;
+    top: 150px;
+    left: 120px
+}
+.FAQ-main-left-section
+{
+    width: 30%;
+}
+.leftpic1
+{
+    position: relative;
+    width: 86px;
+    height: 79px;
+    border: 0px solid #93deff;
+    left: 357px;
+    bottom: 528px;
+    background: #e3f6f5;
+}
+.leftpic1-h1
+{
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 507px;
+    font-size: 20px;
+    font-weight: 100;
+    border: 0px solid #0b2f44;
+    color: #0b2f44;
+}
+.leftpic2
+{
+    position: relative;
+    width: 85px;
+    height: 85px;
+    border: 0px solid #93DEFF;
+    left: 357px;
+    bottom: 400px;
+    background-color: #e3f6f5;
+    color: transparent;
+}
+.leftpic-h2
+{
+    display: inline-block;
+    position: relative;
+    left: 260px;
+    bottom: 370px;
+    font-size: 21px;
+    font-weight: 100;
+    border: 0px solid #e3f6f5;
+    color: #a7bcb9;
+}
+.FAQ-right-form
+{
+    width: 56%;
+    padding: 50px 52px;
+    box-shadow: 9px 0px 60px rgba(30, 143, 208, 0.7);
+    height: 92vh;
+    text-align: center;
+}
+.FAQ-form-fields
+{
+    text-decoration: none;
+    border: 0px white;
+    width: 40%;
+    height: 10vh;
+}
+.FAQ-form-fields-message{
+    text-decoration: none;
+    border: 0px white;
+    width: 40%;
+    height: 10vh;
+    position: relative;
+    right: 122px;
+    top: 25px;
+}
+.FAQ-form-email
+{
+    text-decoration: none;
+    border: 0px white;
+    width: 40%;
+    height: 10vh;
+}
+.FAQ-form-submitbtn
+{
+    position: relative;
+    top: 80px;
+    right: 184px;
+    width: 170px;
+    height: 48px;
+    background-color: #ffa800;
+    border: 0px solid darkturquoise;
+    color: #fff;   
+}
+.FAQ-form-submitbtn>h5
+{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.FAQ-form-submitbtn:hover{
+   color: #3c3c3c;
+}

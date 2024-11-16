@@ -22,7 +22,7 @@
 {
     float: right;
     position: relative;
-    right: 50px;
+    right: 147px;
     bottom: 81px;
     width: 174px;
     height: 54px;
@@ -37,4 +37,64 @@
     font-weight: 500;
     position: relative;
     right: 12px;
+}
+.Shipment-Section
+{
+    display: flex;
+    margin-top: 237px;
+    margin-left: 100px;
+}
+.Shipment-border
+{
+    border-top: 52px solid #ffa800;
+    border-left: 52px solid #ffa800;
+    border-bottom: 52px solid #ffa800;
+}
+.Shipment-border-h1
+{
+    font-size: 162px;
+    font-weight: 600;
+    color: #ffa800;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px #FFA800;
+}
+.Shipment-border-h2
+{
+    position: relative;
+    left: 226px;
+    bottom: 112px;
+    width: 63%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0b2f44;
+    line-height: 35px;
+}
+.shipment-logos
+{
+    width: 69px;
+    height: 66px;
+}
+.Shipment-images
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    border: 1px solid white;
+    padding: 1em;
+    justify-content: space-between;
+}
+.logo-h1{
+    position: relative;
+    left: 92px;
+    bottom: 91px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffa800;
+}
+.logo-h2
+{
+    position: relative;
+    left: 89px;
+    bottom: 88px;
+    font-size: 27px;
+    color: #0b2f44;
 }

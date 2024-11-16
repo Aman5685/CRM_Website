@@ -1,0 +1,182 @@
+.footer-container
+{
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    height: 30vh;
+    background-color: #ffa800;
+}
+.footer-img
+{
+    position: relative;
+    bottom: 205px;
+}
+.Footer-content
+{
+    display: flex;
+    position: relative;
+    bottom: 330px;
+    left: 220px;
+    width: fit-content;
+}
+.footer-content-h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    width: 65%;
+    height: 62%;
+    line-height: 35px;
+    position: relative;
+    left: 65px;
+    color: #0b2f44;
+}
+.footer-input-mail
+{
+    width: 300%;
+    height: 70%;
+    border: 0px;
+    position: relative;
+    left: 35px;
+    bottom: 15px;
+}
+.footer-button
+{
+    width: 170%;
+    height: 70%;
+    position: relative;
+    top: 55px;
+    right: 128px;
+    background-color: #0b2f44;
+    color: #fff;
+    border: 0px;
+}
+.footer-button>h3{
+  font-size: 15px;
+}
+.Footer-Last-Content
+{
+    background-color: #113f67;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    bottom: 200px;
+}
+.Footer-last-image
+{
+    width: 19%;
+    height: 19%;
+    padding: 16px;
+    position: relative;
+    top: 80px;
+    left: 35px;
+}
+
+.Footer-last-Details
+{
+    display: flex;
+    gap: 30px;
+}
+.Footer-last-p
+{
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 85px;
+    left: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.Footer-last-icons
+{
+    display: flex;
+    position: relative;
+    top: 250px;
+    right: 330px;
+    width: 11%;
+    height: 11%;
+    grid-gap: 10px;
+}
+.Button-icons
+{
+    width: 40px;
+    height: 40px;
+    background-color: #0b2f44;
+    color: #fff;
+}
+.Footer-last-Quick-h1
+{
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.Footer-last-li
+{
+    list-style-type:none;
+    color: #fff;
+    line-height: 35px;
+}
+.Footer-last-shipping-h1
+{
+    color: #fff;
+    position: relative;
+    left: 60px;
+}
+.Footer-last-service-h1
+{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 50px;
+    position: relative;
+    bottom: 15px;
+}
+.Footer-last-services-h1
+{
+    color: #fff;
+    position: relative;
+    left: 140px;
+}
+.Footer-last-Quick-h1:hover
+{
+    color: #ffa800;
+}
+.list-hover:hover{
+    color: #ffa800;
+}
+.Footer-last-service-h1:hover{
+    color: #ffa800;
+}
+.Footer-last-service-h1:hover
+{
+    color: #ffa800;
+}
+.Button-icons:hover
+{
+    color: #ffa800;
+}
+.footer-hr{
+    position: relative; 
+    top:8px;
+}
+.footer-hr-h3
+{
+    position: relative;
+    top: 150px;
+     text-align: center;
+     align-items: center;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 100;
+}
+.footer-hr-span
+{
+    color: #ffa800;
+}
+.footer-hr-heart
+{
+    color: #e70000;
+}
