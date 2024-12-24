@@ -6,7 +6,7 @@ import leftpic2 from"../../../public/FAQ-image-right1.png";
 function Faq() {
   return (
     <>
-    <div>
+    <div className="container">
     <div className="FAQ-main-div">
         <h1 className="FAQ-main-div-h1">Request A Quote</h1>
         <h2 className="FAQ-main-div-h2">Booking For Product Transformation</h2>

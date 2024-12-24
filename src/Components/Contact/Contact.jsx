@@ -13,6 +13,7 @@ import clientrightlogo from "../../../public/client rightlogo4.jpg";
 function Contact() {
   return (
     <>
+    <div className="container">
     <div className="Contact-container">
         <div className="Contact-main-header">
             <div>
@@ -70,6 +71,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </>
   )

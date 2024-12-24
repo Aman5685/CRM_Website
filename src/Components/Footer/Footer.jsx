@@ -11,6 +11,7 @@ import { FaHeart } from "react-icons/fa";
 function Footer() {
   return (
     <>
+    <div className="container">
     <div className="footer-container">
         <div>
           <img className="footer-img" src={footer1} alt="" />
@@ -76,7 +77,7 @@ function Footer() {
           </div>
           <h3 className="footer-hr-h3">© 2022 Aarsan Shipping Services Pvt. Ltd. All Rights Reserved | Made with <span className="footer-hr-heart"><FaHeart /></span> By <span className="footer-hr-span">Aman Yadav</span></h3>
     </div>
-       
+    </div>
     </>
   )
 }

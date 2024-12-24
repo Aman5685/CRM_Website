@@ -5,6 +5,7 @@ import lasticon from"../../../public/home icons last.png";
 function About() {
   return (
     <>
+    <div className="container">
       <div className="maindiv">
       <div className="divleft">
       <h1>Why Choose Us</h1>
@@ -18,10 +19,11 @@ function About() {
       <h4 className="Lefth4">Logistics</h4>
       </div>
       <div className="divright">
-      <img className="divrightimg" src={divright} alt="" />
+      <img className="right-img" src={divright} alt="" />
       </div>
       <div>
         <img  className="last-icon" src={lasticon} alt="" />
+      </div>
       </div>
       <div className="tw-any-help-inner">
         <span className="tw-24">24/7 Active Suport Team</span>
@@ -31,7 +33,6 @@ function About() {
         <span className="tw-help-number">(+91 780 008 0638)</span>
       </div>
       </div>
-    
     </>
 
   )
